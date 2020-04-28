@@ -5,7 +5,7 @@
 Global $LicenseDatabasePath = @ScriptDir & "\licensedatabase.ini"
 ; // OPTIONS HERE //
 Local $sRootDir = @ScriptDir & "\www" ; The absolute path to the root directory of the server.
-Local $sIP = 0.0.0.0 ; ip address as defined by AutoIt
+Local $sIP = "0.0.0.0" ; ip address as defined by AutoIt
 Local $iPort = 80 ; the listening port
 Local $sServerAddress = "http://" & $sIP & ":" & $iPort & "/"
 Local $iMaxUsers = 50 ; Maximum number of users who can simultaneously get/post
